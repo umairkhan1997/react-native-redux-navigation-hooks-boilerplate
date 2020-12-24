@@ -38,7 +38,7 @@ const Home = (props) => {
   >
     <View>
     <Button  onPress={()=>openDrawer()}>
-      <Text>Drawer open</Text>
+      <Text>Click to open Drawer</Text>
       </Button>
     </View>
    </Drawer> 
