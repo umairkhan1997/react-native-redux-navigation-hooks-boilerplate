@@ -11,8 +11,8 @@ const Contact = (props) => {
   const [inpVal, setInpVal] = useState('');
 
     const onChangeValueHandler = (e, stat) => {
-    setInpVal(e)
-    console.log(e,'asd')  
+      console.log(e.nativeEvent.text);
+setInpVal(e.nativeEvent.text)
     };
     return (
     
